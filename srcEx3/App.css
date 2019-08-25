@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: greenyellow;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+li {
+    list-style-type: none;
+    border: dotted blue 1px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 5px auto;
+    text-align: left;
+    padding: 2%;
+    padding-left: 2%;
+}
